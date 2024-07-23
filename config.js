@@ -5,37 +5,37 @@ module.exports = {
     /**
      * bot details and parameters
      */
-    botname: process.env.BotName || "Queen Anya Bot",
-    footer: process.env.Footer || "© Queen Anya Bot",
-    prefa: process.env.Prefix || "-",
-    themeemoji: process.env.ThemeEmoji || "🎐",
+    botname: process.env.BotName || "X5 Bot",
+    footer: process.env.Footer || "© X5  Bot",
+    prefa: process.env.Prefix || ".",
+    themeemoji: process.env.ThemeEmoji || "😏",
 
     /**
      * owner details and parameters
      */
-    ownername: process.env.Owner_Name || "Pika~Kun",
-    ownernumber: process.env.Owner_Number || "916900904828",
-    instagramId: process.env.Insta || "3.69_pika",
+    ownername: process.env.Owner_Name || "Ayoub~Kun",
+    ownernumber: process.env.Owner_Number || "212671648947",
+    instagramId: process.env.Insta || "_ayoub_x5",
 
     /**
      * other details and parameters
      */
-    author: process.env.Author || "@PikaBotz",
-    packname: process.env.PackName || "Queen Anya v2 MD",
-    socialLink: process.env.Web || "https://github.com/PikaBotz",
-    groupLink: process.env.GcLink || "https://chat.whatsapp.com/E490r0wSpSr89XkCWeGtnX",
+    author: process.env.Author || "@_Ayoub_x5",
+    packname: process.env.PackName || "X5-MD",
+    socialLink: process.env.Web || "https://www.instagram.com/_ayoub_x5",
+    groupLink: process.env.GcLink || "https://www.instagram.com/_ayoub_x5",
     warns: Number(process.env.Warn_Limits) || 3,
     cooldown: 5, // default cooldown time per command in seconds
-    mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
-    sessionId: process.env.SESSION_ID || "YOUR_SESSION_ID",
+    mongoUrl: process.env.MongoDB || "mongodb+srv://shadow:shadowgarden123@cluster0.1jaomxr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    sessionId: process.env.SESSION_ID || "WEJwamxZaFMjZ1VPUlM0S0gyNkRLUkJMNWVMc_Queen-Anya_01Vc_Queen-Anya_2xBV1hYc_Queen-Anya_FhkT1QtWEdkb0dkX3UtMA==",
 
     /**
      * thumbnails and medias
      */
     image_1: readFileSync('./lib/Assets/image_1.jpg'), // primary image
     image_2: readFileSync('./lib/Assets/image_2.jpg'), // secondry image
-    imageUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image url, to replace to your url upload your image to https://imgbb.com
-    imageMentionUrl: "https://i.ibb.co/ZKKSZHT/Picsart-23-06-24-13-36-01-843.jpg", // image for mention reply audio media
+    imageUrl: "https://telegra.ph/file/dae101fc2b39ee989f13c.jpg", // image url, to replace to your url upload your image to https://imgbb.com
+    imageMentionUrl: "https://telegra.ph/file/dae101fc2b39ee989f13c.jpg", // image for mention reply audio media
     aliveMedia: readFileSync("./lib/Assets/aliveMedia.mp4"),
     menuMedia: readFileSync('./lib/Assets/menuMedia.mp4'),
     ownerMentionMp3: readFileSync('./lib/Assets/ownerMentionMp3.mp3'),  // audio for mention reply audio media
